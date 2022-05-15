@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #7A7716;
+    --cor1: #FAF450;
+    --cor2: #F7EF05;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header h1 {
+    font-family: var(--font-padrao);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
+}
+
+header p {
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: auto;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--font-padrao);
+}
+
+header {
+    background-color: #0f0f0e24;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+header > p {
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: auto;
+
+
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 100%;
+    transition-duration: 0.5s;
+}
+
+main {
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: rgb(243, 235, 235);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.818);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 2px 6px;
+}
+
+main a.houver {
+    text-decoration: underline;
+}
+
+nav {
+    padding: 10px;
+    background-color: #7a771686;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+}
+
+nav > a:hover {
+    background-color: var(--cor0);
+    color: var(--cor2);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+
+}
+
+main h1 {
+    font-family: var(--font-padrao);
+}
+
+main h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #ebe30964, transparent);
+    font-family: var(--font-padrao);
+    text-indent: 8px;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+}
+
+footer {
+    background-color: #7a771686;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+    text-align: center;
+    font-size: 0.8s;
+    padding: 5px;
+}
+
+div.videos {
+    margin: 0px -20px 30px -20px;
+    margin: 0px -20px 30px;
+    padding: 15px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.videos > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}

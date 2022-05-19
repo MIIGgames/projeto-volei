@@ -15,14 +15,17 @@
 }
 
 header h1 {
+    
+    color: white;
     font-family: var(--font-padrao);
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
 }
 
 header p {
+    color: white;
     font-family: var(--font-padrao);
     font-size: 1.2em;
     max-width: 600px;
@@ -32,11 +35,12 @@ header p {
 }
 
 body {
-    background-color: var(--cor1);
-    font-family: var(--font-padrao);
+    background-image: linear-gradient(to right, rgba(34, 34, 214, 0.895), transparent);
+   font-family: var(--font-padrao);
 }
 
 header {
+    background: url(fotobr.jpg)no-repeat center center;
     background-color: #0f0f0e24;
     min-height: 150px;
     text-align: center;
@@ -88,14 +92,15 @@ main a.houver {
 }
 
 nav {
+    text-align: center;
     padding: 10px;
-    background-color: #7a771686;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
+    background-color: rgba(45, 45, 187, 0.807);
+    box-shadow: 0px 7px 7px rgba(8, 8, 27, 0.636);
 }
 
 nav > a:hover {
-    background-color: var(--cor0);
-    color: var(--cor2);
+    background-color: rgb(31, 31, 133);
+    color: rgb(2, 2, 20);
 }
 
 main p {
@@ -109,12 +114,14 @@ main p {
 
 main h1 {
     font-family: var(--font-padrao);
+    color: white;
 }
 
 main h2 {
+    color: white;
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right, #ebe30964, transparent);
+    background-image: linear-gradient(to right, rgba(34, 34, 214, 0.895), transparent);
     font-family: var(--font-padrao);
     text-indent: 8px;
 }
@@ -131,7 +138,7 @@ footer {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
     text-align: center;
     font-size: 0.8s;
-    padding: 5px;
+    padding: 15%;
 }
 
 div.videos {
@@ -149,4 +156,8 @@ div.videos > iframe {
     width: 90%;
     height: 90%;
 
+}
+
+footer.div#q1 {
+    background-position: left top;
 }

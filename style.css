@@ -14,6 +14,13 @@
     padding: 0%;
 }
 
+header.logo {
+    max-width: 100%;
+    max-height: 100%;
+    height: 200px;
+    width: 200px;
+}
+
 header h1 {
     
     color: white;
@@ -35,12 +42,11 @@ header p {
 }
 
 body {
-    background-image: linear-gradient(to right, rgba(34, 34, 214, 0.895), transparent);
+    background: rgb(52, 52, 198);
    font-family: var(--font-padrao);
 }
 
 header {
-    background: url(fotobr.jpg)no-repeat center center;
     background-color: #0f0f0e24;
     min-height: 150px;
     text-align: center;
@@ -138,7 +144,7 @@ footer {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
     text-align: center;
     font-size: 0.8s;
-    padding: 15%;
+    padding: 5px;
 }
 
 div.videos {
@@ -147,17 +153,4 @@ div.videos {
     padding: 15px;
     padding-bottom: 50%;
     position: relative;
-}
-
-div.videos > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-
-}
-
-footer.div#q1 {
-    background-position: left top;
 }

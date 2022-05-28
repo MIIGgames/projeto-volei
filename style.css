@@ -67,9 +67,10 @@
     body {
       overflow-x: hidden;
     }
+     
     .nav-list {
       position: absolute;
-      top: 10vh;
+      top: 15vh;
       right: 0;
       width: 50vw;
       height: 92vh;

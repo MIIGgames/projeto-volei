@@ -135,6 +135,11 @@
     border-bottom-right-radius: 10px ;
   }
 
+  article {
+    max-width: 1000px;
+    min-width: 320px;
+  }
+
   .h2-comp {
     color: white;
     background-color: #23232e;

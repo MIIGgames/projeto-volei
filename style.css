@@ -190,7 +190,7 @@ h3 {
  }
 
 .masculino {
-  min-width: 400px;
+  min-width: 320px;
   max-width: 1000px;
 }
 
@@ -202,7 +202,7 @@ h3 {
 
 .femino {
   max-width: 1000px;
-  min-width: 400px;
+  min-width: 320px;
 }
 
 .femino td {

@@ -35,9 +35,10 @@
   }
   
   main {
+    border-radius: 2px;
     background: url("bg.jpg") no-repeat center center;
     background-size: cover;
-    height: 92vh;
+
   }
   
   .nav-list {
@@ -118,23 +119,58 @@
     transform: rotate(45deg) translate(-5px, -7px);
   }
 
+  body {
+    
+  }
+
   main {
     padding: 20px;
     min-width: 300px;
     max-width: 1000px;
     margin-bottom: 30px;
     margin: auto;
-    background-color: white;
-    box-shadow: opx opx 10px rgba(0, 0, 0, 0.562);
+    background-color: rgba(255, 255, 255, 0.553);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px ;
+  }
+
+  .h2-comp {
+    color: white;
+    background-color: #23232e;
+    padding: 10px;
+  }
+
+  .h2-treinos {
+    margin: 20px;
+  }
+
+ .competiçoes {
+   font-family: Arial, Helvetica, sans-serif;
+   bottom: 10px;
+   margin: 20px;
+ }
+
+  .p-img {
+    text-align: center;
+  }
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1,3em;
+  text-indent: 7px;
+  padding: 10px;
+  max-width: 1000px;
+  min-width: 400px;
+  margin: auto;
 }
 
  h2 {
+   
+    font-family: Arial, Helvetica, sans-serif;
      font-weight: normal;
      font-size: 1,3em;
      text-indent: 7px;
-     background-image: linear-gradient(to right, #23232e, transparent );
      padding: 10px;
      max-width: 1000px;
      min-width: 400px;
@@ -142,16 +178,99 @@
  }
 
  main p {
-     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
     max-width: 1000px;
     min-width: 400px;
     margin: auto;
  }
 
+ .competiçoes {
+   
+   
+ }
+
  main img {
     background-color: #23232e;
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     display: block;
     margin: auto;
+    border: 1px solid black;
+    border-radius: 1px black;
  }
+
+table {
+  padding: 20px;
+}
+
+ table.masculino {
+   width: 500px;
+   border-collapse: collapse;
+ }
+
+ tr.linha {
+   color: white;
+   background-color: #23232e;
+ }
+
+ td {
+   font-family: Arial, Helvetica, sans-serif;
+   border: 1px solid black;
+   padding: 8px;
+ }
+
+
+ .femino {
+   width: 500px;
+   border-collapse: collapse;
+ }
+
+ caption {
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+   font-weight: bold;
+   font-size: 1,5em;
+   background-color: #23232e;
+   color: white;
+ }
+
+ .fem {
+   text-align: center;
+   background-color: gray;
+ }
+
+ footer > p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #23232e;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  height: 5vh;  
+ padding: 5px;
+   
+ }
+
+ footer {
+   
+ }
+
+.contatos {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.documentos {
+  width: 300px;
+  border: 1px sol black;
+  border-collapse: collapse;
+}
+
+a {
+  color: blue;
+}
+
+.emails {
+  padding: 20px;
+  font-size: 20px;
+}

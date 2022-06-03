@@ -181,7 +181,7 @@ h3 {
     border-radius: 1px black;
  }
 
-.tabelas td {
+td {
   padding: 10px;
   border: 1px solid black;
   border-collapse: collapse;
@@ -233,10 +233,6 @@ main.documentos {
 
 a {
   color: blue;
-}
-
-td {
-  padding: 10px;
 }
 
 .documentos {

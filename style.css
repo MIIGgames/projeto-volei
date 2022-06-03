@@ -128,7 +128,7 @@
     min-width: 300px;
     max-width: 1000px;
     margin-bottom: 30px;
-    margin: auto;
+    margin: auto ;
     background-color: rgba(255, 255, 255, 0.553);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
     border-bottom-left-radius: 10px;
@@ -160,9 +160,7 @@ h3 {
   font-size: 1,3em;
   text-indent: 7px;
   padding: 10px;
-  max-width: 1000px;
-  min-width: 400px;
-  margin: auto;
+  
 }
 
  h2 {
@@ -172,21 +170,12 @@ h3 {
      font-size: 1,3em;
      text-indent: 7px;
      padding: 10px;
-     max-width: 1000px;
-     min-width: 400px;
-     margin: auto;
+     
  }
 
  main p {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    max-width: 1000px;
-    min-width: 400px;
-    margin: auto;
- }
-
- .competiçoes {
-   
    
  }
 
@@ -200,30 +189,32 @@ h3 {
     border-radius: 1px black;
  }
 
-table {
-  padding: 20px;
+.masculino {
+  min-width: 400px;
+  max-width: 1000px;
 }
 
- table.masculino {
-   width: 500px;
-   border-collapse: collapse;
- }
+.masculino td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 
- tr.linha {
+.femino {
+  max-width: 1000px;
+  min-width: 400px;
+}
+
+.femino td {
+  text-align: center;
+  padding: 10px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+ 
+tr.linha {
    color: white;
    background-color: #23232e;
- }
-
- td {
-   font-family: Arial, Helvetica, sans-serif;
-   border: 1px solid black;
-   padding: 8px;
- }
-
-
- .femino {
-   width: 500px;
-   border-collapse: collapse;
  }
 
  caption {
@@ -233,11 +224,6 @@ table {
    font-size: 1,5em;
    background-color: #23232e;
    color: white;
- }
-
- .fem {
-   text-align: center;
-   background-color: gray;
  }
 
  footer > p {
@@ -251,23 +237,31 @@ table {
    
  }
 
- footer {
-   
- }
+hr {
+  border: 1px solid black;
+  border-radius: 5px;
+}
 
 .contatos {
   padding: 20px;
   font-size: 20px;
 }
 
-.documentos {
+main.documentos {
   width: 300px;
-  border: 1px sol black;
-  border-collapse: collapse;
 }
 
 a {
   color: blue;
+}
+
+td {
+  padding: 10px;
+}
+
+.documentos {
+  border-collapse: collapse;
+  border: 1px solid black;
 }
 
 .emails {

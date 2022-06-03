@@ -181,27 +181,15 @@ h3 {
     border-radius: 1px black;
  }
 
-.masculino {
-  min-width: 320px;
-  max-width: 1000px;
-}
-
-.masculino td {
+.tabelas td {
   padding: 10px;
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-.femino {
-  max-width: 1000px;
+.tabelas {
   min-width: 320px;
-}
-
-.femino td {
-  text-align: center;
-  padding: 10px;
-  border-collapse: collapse;
-  border: 1px solid black;
+  
 }
  
 tr.linha {

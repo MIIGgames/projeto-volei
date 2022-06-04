@@ -57,7 +57,7 @@
     transition: 0.3s;
   }
 
-  @media (max-width: 400pxpx) {
+  @media (min-width: 400pxpx) {
     body {
       overflow-x: hidden;
     }

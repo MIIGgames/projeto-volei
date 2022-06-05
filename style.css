@@ -6,6 +6,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,6 +27,7 @@ header > h1 {
 }
 
 header > p {
+  margin: auto;
   text-align: center;
   padding-bottom: 50px;
   color: white;
@@ -121,7 +123,7 @@ main img {
 }
 
 table {
-  min-width: 320px;
+  max-width: 400px;
 }
 
 table td {
@@ -145,11 +147,10 @@ caption {
 }
 
 .documentos {
-  min-width: 400px;
+  min-width: 320px;
 }
 
 .documento {
-  
   padding: 10px;
 }
 

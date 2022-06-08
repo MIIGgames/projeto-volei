@@ -26,6 +26,8 @@ header > h1 {
   color: white;
 }
 
+
+
 header > p {
   margin: auto;
   text-align: center;
@@ -158,11 +160,21 @@ caption {
 }
 
 .contatos {
+  max-width: 1000px;
   columns: 2;
   list-style-position: inside;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 3px 3px 8px #23232e;
+}
+
+.contatos {
+  min-width: 400px;
+  list-style-position: inside;
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: 3px 3px 8px #23232e;
+
 }
 
 .max {

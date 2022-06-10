@@ -93,6 +93,7 @@ main h2 {
 }
 
 main p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 15px 0px;
   text-align: justify;
   text-indent: 30px;
@@ -175,6 +176,7 @@ caption {
 }
 
 .contatos > ul {
+  max-width: 200px;
   margin: auto;
 }
 

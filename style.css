@@ -114,25 +114,15 @@ aside > ul {
   list-style-position: inside;
 }
 
-main img {
-  border-radius: 1px black;
-  border: 1px solid black;
-  margin: auto;
-  max-width: 600px;
-  width: 100%;
-  display: block;
-}
-
-.p-img {
-  text-align: center;
-  color: gray;
+.tabela {
+  width: 800px;
 }
 
 table {
-  list-style-position: inside;
-  columns: 2;
+  margin: auto;
+  table-layout: fixed;
+  width: 89%;
   text-align: center;
-  max-width: 400px;
 }
 
 table td {
@@ -157,6 +147,10 @@ caption {
 
 .documentos {
   min-width: 320px;
+}
+
+.download {
+  padding: 5px;
 }
 
 .documento {

@@ -59,6 +59,7 @@ nav > a:hover {
 }
 
 main {
+  overflow: hidden;
   background-size: cover;
   padding: 20px;
   min-width: 320px;
@@ -159,7 +160,6 @@ caption {
 }
 
 .contatos {
-  max-width: 1000px;
   columns: 2;
   list-style-position: inside;
   border-radius: 10px;

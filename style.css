@@ -50,6 +50,11 @@ nav > a {
   transition-duration: .5s;
 }
 
+.menu {
+  padding: 10px;
+  align-items: baseline;
+}
+
 .docu {
   bottom: 10px;
 }
@@ -112,6 +117,7 @@ aside {
 }
 
 aside > ul {
+  padding: 10px;
   list-style-position: inside;
 }
 

@@ -35,11 +35,10 @@ header > h1 {
 }
 
 header > p {
-  margin: auto;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   color: white;
-  font-size: 1.2em;
+  font-size: normal;
 }
 
 nav {
@@ -56,6 +55,17 @@ nav > a {
   text-decoration: none;
   font-weight: 100%;
   transition-duration: .5s;
+}
+
+.nav-bar {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-bar a:hover {
+  color: white;
 }
 
 nav > a:hover {
@@ -167,17 +177,18 @@ caption {
 }
 
 .contatos {
-  columns: 2;
   list-style-position: inside;
   border-radius: 10px;
   box-shadow: 3px 3px 8px #23232e;
-  border-radius: 10px;
-  box-shadow: 3px 3px 8px #23232e;
+  border-radius: 6px;
 }
 
-.contatos > ul {
-  max-width: 200px;
-  margin: auto;
+.contatos > li {
+  text-align: center;
+}
+
+.contatos p {
+  text-align: center;
 }
 
 .max {
@@ -185,9 +196,15 @@ caption {
 }
 
 footer {
+  margin-bottom: 38px;
+  text-align: center;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #23232e;
+}
+
+footer h2 {
+  color: white;
 }
 
 footer p {

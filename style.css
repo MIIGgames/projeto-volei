@@ -58,6 +58,7 @@ nav > a {
 }
 
 .nav-bar {
+  padding: 20px;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -196,7 +197,7 @@ caption {
 }
 
 footer {
-  margin-bottom: 38px;
+  margin-bottom: 50px;
   text-align: center;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;

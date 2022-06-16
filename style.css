@@ -58,6 +58,7 @@ nav > a {
 }
 
 .nav-bar {
+  
   padding: 20px;
   text-align: center;
   position: fixed;
@@ -175,6 +176,17 @@ caption {
 .documento {
   color: blue;
   padding: 10px;
+}
+
+.imagems-br {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.videos-fotos {
+  padding: 10px;
+  width: 300px;
+  height: 300px;
 }
 
 .contatos {

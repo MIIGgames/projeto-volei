@@ -194,6 +194,16 @@ caption {
   height: 300px;
 }
 
+.button {
+  text-align: center;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.container{
+  display: none;
+}
+
 .contatos {
   list-style-position: inside;
   border-radius: 10px;

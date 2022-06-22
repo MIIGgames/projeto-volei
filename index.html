@@ -164,8 +164,11 @@
                             <br>
                             <hr>
                             <br>
-                            <div class="imagems-videos">
+                            <div class="container">
+                              <img class="videos-fotos" src="imagems/exercicio1.jpg" alt="">
+                              <img class="videos-fotos" src="imagems/exercicio2.jpg" alt="">
                             </div>
+                            <button class="button" id="btn-div" onclick="clicar()">Mostrar</button>
                             <br>
                             <hr>
                             <br>
@@ -234,6 +237,22 @@
           });
         });
       });
+
+      var btn = document.getElementById('btn-div');
+      var container = document.querySelector('.container');
+      btn.addEventListener('click', function() {
+        if(container.style.display === 'block') {
+      container.style.display = 'none';
+    } else {
+      container.style.display = 'block';
+    }
+  });
+
+  var a = window.document.getElementById(btn-div)
+  a.addEventListener('click', menos)
+  function clicar() {
+    a.innerText = 'Menos'
+  };
     </script>
 </body>
 </html>

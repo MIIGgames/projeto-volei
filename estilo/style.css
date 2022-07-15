@@ -16,7 +16,8 @@ header {
     border-radius: 0px 0px 8px 8px;
 }
 
-header h1, p {
+header h1, p {~
+    margin: 30px ;
     color: white;
     padding: 10px;
     text-align: center;

@@ -16,8 +16,8 @@ header {
     border-radius: 0px 0px 8px 8px;
 }
 
-header h1, p {~
-    margin: 30px ;
+header h1, p {
+    line-height: 200px;
     color: white;
     padding: 10px;
     text-align: center;
@@ -34,6 +34,7 @@ header h1, p {~
   
   /* Links inside the navbar */
   .navbar a {
+    text-align: center;
     text-decoration: none;
     float: left;
     display: block;
@@ -168,6 +169,7 @@ a {
 /*footer*/
 
 #myFooter {
+    height: 24vh;
     text-align: center;
     background-color: #23232e;
 }
